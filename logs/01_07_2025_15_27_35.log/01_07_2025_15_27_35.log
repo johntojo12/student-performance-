@@ -1,0 +1,51 @@
+[2025-01-07 15:27:37,176] 30 root - INFO -Entered the data ingestion method or component
+[2025-01-07 15:27:37,181] 33 root - INFO -Read the csv file
+[2025-01-07 15:27:37,186] 39 root - INFO -Train test split initialised
+[2025-01-07 15:27:37,192] 46 root - INFO -Ingestion of the data is completed
+[2025-01-07 15:27:37,213] 84 root - INFO -Read train and test data completed
+[2025-01-07 15:27:37,213] 86 root - INFO -Obtaining preprocessing object
+[2025-01-07 15:27:37,213] 60 root - INFO -Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-01-07 15:27:37,213] 61 root - INFO -Numerical columns: ['writing_score', 'reading_score']
+[2025-01-07 15:27:37,335] 99 root - INFO -Applying preprocessing object on training dataframe and testing dataframe.
+[2025-01-07 15:27:37,367] 111 root - INFO -Saved preprocessing object.
+[2025-01-07 15:27:37,368] 35 root - INFO -X Y Split started for test and train data
+[2025-01-07 15:28:31,702] 86 root - INFO -Model performance metrics:
+[2025-01-07 15:28:31,702] 88 root - INFO -Model: Random Forest
+[2025-01-07 15:28:31,702] 89 root - INFO -Train R²: 0.9750, Test R²: 0.8414
+[2025-01-07 15:28:31,702] 90 root - INFO -Train MAE: 1.8779, Test MAE: 4.7853
+[2025-01-07 15:28:31,702] 91 root - INFO -Train RMSE: 2.3751, Test RMSE: 6.2120
+[2025-01-07 15:28:31,702] 92 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,702] 88 root - INFO -Model: Decision Tree
+[2025-01-07 15:28:31,703] 89 root - INFO -Train R²: 0.9997, Test R²: 0.7428
+[2025-01-07 15:28:31,703] 90 root - INFO -Train MAE: 0.0187, Test MAE: 6.4100
+[2025-01-07 15:28:31,703] 91 root - INFO -Train RMSE: 0.2795, Test RMSE: 7.9114
+[2025-01-07 15:28:31,703] 92 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,703] 88 root - INFO -Model: Gradient Boosting
+[2025-01-07 15:28:31,703] 89 root - INFO -Train R²: 0.8951, Test R²: 0.8752
+[2025-01-07 15:28:31,703] 90 root - INFO -Train MAE: 3.9115, Test MAE: 4.2334
+[2025-01-07 15:28:31,703] 91 root - INFO -Train RMSE: 4.8621, Test RMSE: 5.5100
+[2025-01-07 15:28:31,703] 92 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,703] 88 root - INFO -Model: Linear Regression
+[2025-01-07 15:28:31,703] 89 root - INFO -Train R²: 0.8743, Test R²: 0.8804
+[2025-01-07 15:28:31,703] 90 root - INFO -Train MAE: 4.2667, Test MAE: 4.2148
+[2025-01-07 15:28:31,703] 91 root - INFO -Train RMSE: 5.3231, Test RMSE: 5.3940
+[2025-01-07 15:28:31,703] 92 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,703] 88 root - INFO -Model: AdaBoost Regressor
+[2025-01-07 15:28:31,703] 89 root - INFO -Train R²: 0.8542, Test R²: 0.8536
+[2025-01-07 15:28:31,703] 90 root - INFO -Train MAE: 4.6848, Test MAE: 4.6442
+[2025-01-07 15:28:31,703] 91 root - INFO -Train RMSE: 5.7341, Test RMSE: 5.9687
+[2025-01-07 15:28:31,703] 92 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,703] 95 root - INFO -Best model selected: Linear Regression
+[2025-01-07 15:28:31,703] 98 root - INFO -train_r2: 0.8743172040139593
+[2025-01-07 15:28:31,703] 98 root - INFO -test_r2: 0.8804332983749565
+[2025-01-07 15:28:31,703] 98 root - INFO -train_mae: 4.266711846071957
+[2025-01-07 15:28:31,704] 98 root - INFO -test_mae: 4.21476314247485
+[2025-01-07 15:28:31,704] 98 root - INFO -train_rmse: 5.323050852720513
+[2025-01-07 15:28:31,704] 98 root - INFO -test_rmse: 5.393993869732841
+[2025-01-07 15:28:31,704] 99 root - INFO ---------------------------------------------------
+[2025-01-07 15:28:31,704] 102 root - INFO -Best parameters for Linear Regression:
+[2025-01-07 15:28:31,704] 108 root - INFO -copy_X: True
+[2025-01-07 15:28:31,704] 108 root - INFO -fit_intercept: True
+[2025-01-07 15:28:31,704] 108 root - INFO -n_jobs: None
+[2025-01-07 15:28:31,704] 108 root - INFO -positive: False
+[2025-01-07 15:28:31,704] 109 root - INFO ---------------------------------------------------
