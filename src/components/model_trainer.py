@@ -19,7 +19,7 @@ from src.logger import logging
 from src.utils import save_object,evaluate_models
 
 # Add the parent directory of the src folder to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 @dataclass
 class ModelTrainerConfig:

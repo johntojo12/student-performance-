@@ -1,8 +1,7 @@
 import os
 import sys
 
-# Add the parent directory of the src folder to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
 
 from src.exception import CustomException
 from src.logger import logging

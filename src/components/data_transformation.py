@@ -13,8 +13,7 @@ from src.logger import logging
 import os
 
 from src.utils import save_object
-# Add the parent directory of the src folder to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
 
 @dataclass
 class DataTransformationConfig:
